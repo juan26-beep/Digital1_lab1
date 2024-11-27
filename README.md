@@ -27,7 +27,7 @@ Las compuertas lógicos son circuitos electrónucos que estan internamente confo
 ### Compuertas TTL
 Las compuertas TTL están basadas en transistores bipolares, que forman circuitos lógicos como AND, OR, NOT, entre otros. Estas fueron las primeras tecnologías digitales de alta velocidad ampliamente adoptadas.
 
-Características principales:
+- Características principales:
 Tensión de alimentación típica: 5 V.
 Niveles lógicos:
 Bajo: 0 V a 0.8 V.
@@ -35,26 +35,28 @@ Alto: 2 V a 5 V.
 Velocidad de operación: rápida, típica en nanosegundos (ns).
 Consumo de potencia: relativamente alto debido al uso de transistores bipolares.
 
+- Ventajas de TTL
+Alta velocidad de conmutación.
+Mejor tolerancia al ruido en aplicaciones antiguas (mayor corriente de salida).
+Compatible con dispositivos de la misma familia.
+
 ### Compuertas CMOS
 Las compuertas CMOS están basadas en transistores de efecto de campo (MOSFET) de canal N y P. Son ampliamente utilizadas en dispositivos modernos debido a su bajo consumo de energía.
 
-Características principales:
+- Características principales:
 Tensión de alimentación típica: 3.3 V, 5 V o incluso menos en dispositivos modernos.
 Niveles lógicos:
 Bajo: 0 V a 0.3 V (para 3.3 V de alimentación).
 Alto: 0.7 Vcc a Vcc.
 Velocidad de operación: depende del diseño, más lenta que TTL en configuraciones clásicas pero más eficiente en versiones modernas.
 Consumo de potencia: muy bajo en estado estático (solo durante transiciones de encendido/apagado).
-Ventajas de TTL y CMOS
-Ventajas de TTL
-Alta velocidad de conmutación.
-Mejor tolerancia al ruido en aplicaciones antiguas (mayor corriente de salida).
-Compatible con dispositivos de la misma familia.
-Ventajas de CMOS
+
+- Ventajas de CMOS
 Consumo de potencia extremadamente bajo.
 Alta densidad de integración (millones de compuertas en un chip).
 Mayor rango de tensiones de alimentación en tecnologías modernas.
 Parámetros Importantes: Fan-Out y Tiempos de Subida
+
 Cálculo del Fan-Out
 El fan-out se define como la cantidad máxima de entradas de otras compuertas que una compuerta puede manejar sin degradar significativamente sus niveles lógicos.
 
