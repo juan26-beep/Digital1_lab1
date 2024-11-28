@@ -72,7 +72,14 @@ Para el caso de los dispositivos CMOS, se calcula usando las capacitancias de en
    $Fan-out=\frac{C_{salida}}{C_{entrada}}$
 
 ## RESULTADOS DE SIMULACIÓN 
-    Adjuntar simlaciones pertinentes
+Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la diguiente imagen:
+
+![no image](Esquematico.png)
+**Imágen 1.** Esquemático del citcuito utilizado en la simulación
+
+
+
+
 
 ## RESULTADOS EXPERIMENTALES
 En primer lugar, se realizó la comparación entre cada uno de los circuitos integrados:
