@@ -56,8 +56,13 @@ Las compuertas CMOS están basadas en transistores de efecto de campo (MOSFET) d
     - Mayor rango de tensiones de alimentación en tecnologías modernas.
     - Parámetros Importantes: Fan-Out y Tiempos de Subida
 
-### Cálculo del Fan-Out
+## Cálculo del Fan-Out
 El fan-out se define como la cantidad máxima de entradas de otras compuertas que una compuerta puede manejar sin degradar significativamente sus niveles lógicos.
+
+### Fan-out en TTL
+Para el caso de los dispositivos TTL, se calcula usando las corrientes:
+
+   $ Fan-out=/{Iol}{Iil}$
 
 ## RESULTADOS DE SIMULACIÓN 
     Adjuntar simlaciones pertinentes
