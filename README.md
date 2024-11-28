@@ -128,7 +128,7 @@ Posteriormente, se realizó el montaje físico, implementando una señal cuadrad
 
 
 ![no image](I4.jpg)}
-**Imágen 3.** Medición experimental de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$ con el TTL 74LS04.
+**Imágen 3.** Medición experimental de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$ con el TTL 74LS04.s
 
 
 
