@@ -72,10 +72,10 @@ Para el caso de los dispositivos CMOS, se calcula usando las capacitancias de en
    $Fan-out=\frac{C_{salida}}{C_{entrada}}$
 
 ## RESULTADOS DE SIMULACIÓN 
-Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la diguiente imagen:
+Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la siguiente imagen:
 
 ![no image](Esquematico.png)
-**Imágen 1.** Esquemático del citcuito utilizado en la simulación
+**Imágen 1.** Esquemático del citcuito utilizado en la simulación con el C.Integrado CMOS CD4069. 
 
 
 
@@ -90,14 +90,24 @@ En primer lugar, se realizó la comparación entre cada uno de los circuitos int
 
 ### CMOS CD4069
 ![no image](I2.png)}
-
-**Tabla 2.** Tabla de datos técnicos del circuito integrado TTL 74LS04, tensiones.
+**Tabla 2.** Tabla de datos técnicos del circuito integrado CMOS CD4069, tensiones.
 
 De acuerdo a la información de las tablas **1 y 2**, se puede hacer una primer observación sobre el desempeño de cada familia:
 
 El CD4069 tiene un consumo de energía mucho más bajo en comparación con el 74LS04. El CD4069 tiene una velocidad de operación más alta, con tiempos de subida y caída en escala de ns,mientras que el 74LS04 tiene una velocidad de operación más baja. El CD4069 tiene una mayor inmunidad al ruido debido a su tecnología CMOS, según lo visto también en la teoría [1] [2] y [4].
 
-Posteriormente, se realizó el montaje físico, implementando una señal cuadrada de 1kHz de frecuencia y 5 $$\mathit{V_{pp}}$$
+Posteriormente, se realizó el montaje físico, implementando una señal cuadrada de 1kHz de frecuencia y 5 $$\mathit{V_{pp}}$$, con el fin de observar $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$. Además, fue posible observar la función de transferencia y determinar Voh, Vih, vol, Vil[4]. A continuación, en la **imagen 2**, se muestra la medición de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$.
+
+
+![no image](I3.jpg)}
+**Imágen 2.** Medición experimental de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$ con el CMOS CD4069.
+
+
+
+![no image](I4.jpg)}
+**Imágen 3.** Medición experimental de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$ con el TTL 74LS04.
+
+
 
 ## ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
 
