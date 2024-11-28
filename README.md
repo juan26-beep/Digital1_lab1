@@ -177,3 +177,4 @@ Posteriormente, se realizó el montaje físico, implementando una señal cuadrad
     -[2]. PDF Datasheet integrated circuit CMOS CD4069
     -[3]. J.Ramirez, "Comparación de tecnología CMOS y TTL," GitHub, https://github.com/digital-electronics-UNAL/2024-2/tree/main/labs/lab01#comparaci%C3%B3n-de-tecnolog%C3%ADa-cmos-y-ttl (2024).
     -[4]. T. L. Floyd, "Fundamentos de Sistemas Digitales," 9th ed., Pearson Educación, 2006.
+    -[5]. S.Noriega, "Familia Lógica CMOS, "http://www.ifdcvm.edu.ar/tecnicatura/Desarrollo_de_Contenidos/5.pdf
