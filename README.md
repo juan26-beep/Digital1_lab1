@@ -152,6 +152,14 @@ La función de transferencia resultante sería:
 
 _**Imágen 9.** Función de transferencia del CMOS CD4069_
 
+### OCILADOR ANILLO CMOS
+
+Por medio del siguiente esquemático se analizó el oscilador en anillo CMOS cambiando el voltaje de entrada, teniendo los siguientes resultados: 
+
+![no image](ANILLO.png
+
+_**Imágen 9.** esquemático anillo CMOS CD4069_
+
 ## RESULTADOS EXPERIMENTALES
 En primer lugar, se realizó la comparación entre cada uno de los circuitos integrados, las tablas **tabla 1** y **tabla 2** se muestran a continuación [1] y [2]:
 
