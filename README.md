@@ -71,6 +71,16 @@ Para el caso de los dispositivos CMOS, se calcula usando las capacitancias de en
 
    $Fan-out=\frac{C_{salida}}{C_{entrada}}$
 
+### Tiempos de subida y bajada
+
+Tiempos de Subida y Bajada
+Los tiempos de subida (t_r) y bajada (t_f) representan el tiempo que tarda la señal en pasar de un nivel alto a un nivel bajo y de in nivel bajo a un nivel alto.
+
+En TTL, los tiempos son más cortos debido a la rapidez de los transistores bipolares.
+En CMOS, los tiempos dependen de la capacitancia de las líneas de señal y las resistencias internas.
+
+Para el cálculo de tiempos en el dispositivo CMOS se puede usar una formula aproximada que es:
+
 ## RESULTADOS DE SIMULACIÓN 
 Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la siguiente imagen:
 
@@ -100,7 +110,7 @@ De acuerdo a la información de las tablas **1 y 2**, se puede hacer una primer 
 
 El CD4069 tiene un consumo de energía mucho más bajo en comparación con el 74LS04. El CD4069 tiene una velocidad de operación más alta, con tiempos de subida y caída en escala de ns,mientras que el 74LS04 tiene una velocidad de operación más baja. El CD4069 tiene una mayor inmunidad al ruido debido a su tecnología CMOS, según lo visto también en la teoría [1] [2] y [4].
 
-Posteriormente, se realizó el montaje físico, implementando una señal cuadrada de 1kHz de frecuencia y 5 $$\mathit{V_pp}$$
+Posteriormente, se realizó el montaje físico, implementando una señal cuadrada de 1kHz de frecuencia y 5 $$\mathit{V_{pp}}$$
 
 ## ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
 
