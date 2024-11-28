@@ -139,7 +139,7 @@ De acuerdo a la información de las tablas **1 y 2**, se puede hacer una primer 
 
 El CD4069 tiene un consumo de energía mucho más bajo en comparación con el 74LS04. El CD4069 tiene una velocidad de operación más alta, con tiempos de subida y caída en escala de ns,mientras que el 74LS04 tiene una velocidad de operación más baja. El CD4069 tiene una mayor inmunidad al ruido debido a su tecnología CMOS, según lo visto también en la teoría [1] [2] y [4].
 
-Posteriormente, se realizó el montaje físico, implementando una señal cuadrada de 1kHz de frecuencia y 5 $$\mathit{V_{pp}}$$, con el fin de observar $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$. Además, fue posible observar la función de transferencia y determinar Voh, Vih, vol, Vil[4]. A continuación, en la **imagen 2**, se muestra la medición de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$.
+Posteriormente, se realizó el montaje físico, implementando una señal cuadrada de 1kHz de frecuencia y 5 $$\mathit{V_{pp}}$$, con el fin de observar $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$. Además, fue posible observar la función de transferencia y determinar Voh, Vih, vol, Vil[4]. A continuación, en las imágenes **imagen 2** y **imagen 3**, se muestra la medición de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$.
 
 
 ![no image](I3.jpg)}
@@ -148,8 +148,24 @@ Posteriormente, se realizó el montaje físico, implementando una señal cuadrad
 
 
 ![no image](I4.jpg)}
-**Imágen 3.** Medición experimental de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$ con el TTL 74LS04.s
+**Imágen 3.** Medición experimental de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$ con el TTL 74LS04.
 
+Además, se pueden observar en estas imágenes los parámetros de tiempo de subida y bajada, los cuales se aproximan al valor especificado en el Datasheet de cada uno.
+
+Acto seguido y como última parte de la práctica, se realiza el montaje de la estructura de anillo en la conexión de 3 compuertas, y a su vez variamos el valor de tensió Vpp. A continuación se meustran las imágenes de los resustaldos experimentales obtenidos.
+
+### Con Vpp=5V (inicial)
+![no image](5v.jpg)}
+**Imágen 4.** Medición experimental de conexión en anillo original
+
+### Con Vpp=10V (inicial)
+![no image](10v.jpg)}
+**Imágen 5.** Medición experimental de conexión en anillo para 10vpp
+
+
+### Con Vpp=2V (inicial)
+![no image](2v.jpg)}
+**Imágen 6.** Medición experimental de conexión en anillo para 2vpp
 
 
 ## ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
