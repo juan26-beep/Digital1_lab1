@@ -85,16 +85,31 @@ Para el cálculo de tiempos en el dispositivo CMOS se puede usar una formula apr
 Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la siguiente imagen:
 
 ![no image](Esquematico.png) 
-.
+
 _**Imágen 1.** Esquemático del citcuito utilizado en la simulación_
 
-###TTL 74LS04
+### TTL 74LS04
 
 ![no image](vout_vin_ttl.png)
-.
-_**Imágen 2.** Señal de entrada y de salida del circuito_
+
+_ **Imágen 2.** Señal de entrada y de salida del circuito TTL 74LS04_
 
 
+![no image](TiempoBajadaTTL.png)
+
+_ **Imágen 3.** Tiempo de bajada del TTL 74LS04 _
+
+
+![no image](TiempoSubidaTTL.png)
+
+_ **Imágen 4.** Tiempo de subida del TTL 74LS04 _
+
+
+### CMOS CD4069
+
+![no image](Vout_Vin_CMOS.png.png)
+
+_ **Imágen 5.** Señal de entrada y de salida del circuito CMOS CD4069 _
 
 ## RESULTADOS EXPERIMENTALES
 En primer lugar, se realizó la comparación entre cada uno de los circuitos integrados, las tablas **tabla 1** y **tabla 2** se muestran a continuación [1] y [2]:
