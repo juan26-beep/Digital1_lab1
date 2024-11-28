@@ -81,6 +81,16 @@ En CMOS, los tiempos dependen de la capacitancia de las líneas de señal y las 
 
 Para el cálculo de tiempos en el dispositivo CMOS se puede usar una formula aproximada que es:
 
+   $t_r,t_f=0.693*R*C$
+
+Donde R es la resistencia de salida del MOSFET y C es la capacitancia de la carga.
+
+Otra manera mas exacta de calcularlo es con la siguiente ecuación:
+
+   $t_r=\frac{9xC}{K_pxV_{DD}}$
+
+Donde $K_p$ y $K_n$ corresponden  a parametros internos de los transistores PMOS y NMOS.
+
 ## RESULTADOS DE SIMULACIÓN 
 Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la siguiente imagen:
 
