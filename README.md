@@ -155,11 +155,8 @@ El CD4069 tiene un consumo de energía mucho más bajo en comparación con el 74
 
 Posteriormente, se realizó el montaje físico, implementando una señal cuadrada de 1kHz de frecuencia y 5 $$\mathit{V_{pp}}$$, con el fin de observar $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$. Además, fue posible observar la función de transferencia y determinar Voh, Vih, vol, Vil[4]. A continuación, en las imágenes **imagen 2** y **imagen 3**, se muestra la medición de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$.
 
-
 ![no image](I3.jpg)}
 **Imágen 2.** Medición experimental de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$ con el CMOS CD4069.
-
-
 
 ![no image](I4.jpg)}
 **Imágen 3.** Medición experimental de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$ con el TTL 74LS04.
@@ -168,21 +165,14 @@ Además, se pueden observar en estas imágenes los parámetros de tiempo de subi
 
 Acto seguido y como última parte de la práctica, se realiza el montaje de la estructura de anillo en la conexión de 3 compuertas, y a su vez variamos el valor de tensió Vpp. A continuación se meustran las imágenes de los resustaldos experimentales obtenidos.
 
-## Con Vpp=5V
 ![no image](5v.jpg)}
-**Imágen 4.** Medición experimental de conexión en anillo original
+**Imágen 4.** Medición experimental de conexión en anillo original.
 
-## Con Vpp=10V 
 ![no image](10v.jpg)}
-**Imágen 5.** Medición experimental de conexión en anillo para 10vpp
+**Imágen 5.** Medición experimental de conexión en anillo para 10vpp.
 
-
-## Con Vpp=2V
 ![no image](2v.jpg)}
-**Imágen 6.** Medición experimental de conexión en anillo para 2vpp
-
-
-## ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
+**Imágen 6.** Medición experimental de conexión en anillo para 2vpp.
 
 ## CONCLUSIONES
 1. Si el diseño requiere tiempos de conmutación rápidos y bajas latencias, por ejemplo, generación de pulsos, circuitos de reloj o temporizadores es recomendable usar dispositivos TTL. Por otro lado si el diseño requiere  un bajo consumo de energía es mejor el uso de dispositivos CMOS. Algunas aplicaciones pueden ser para dispositivos alimentados por batería, como teléfonos móviles, relojes inteligentes, o sensores IoT, ya que su consumo energetico es casi nulo en estado estático.
