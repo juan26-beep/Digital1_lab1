@@ -168,16 +168,16 @@ Además, se pueden observar en estas imágenes los parámetros de tiempo de subi
 
 Acto seguido y como última parte de la práctica, se realiza el montaje de la estructura de anillo en la conexión de 3 compuertas, y a su vez variamos el valor de tensió Vpp. A continuación se meustran las imágenes de los resustaldos experimentales obtenidos.
 
-### Con Vpp=5V (inicial)
+## Con Vpp=5V
 ![no image](5v.jpg)}
 **Imágen 4.** Medición experimental de conexión en anillo original
 
-### Con Vpp=10V (inicial)
+## Con Vpp=10V 
 ![no image](10v.jpg)}
 **Imágen 5.** Medición experimental de conexión en anillo para 10vpp
 
 
-### Con Vpp=2V (inicial)
+## Con Vpp=2V
 ![no image](2v.jpg)}
 **Imágen 6.** Medición experimental de conexión en anillo para 2vpp
 
