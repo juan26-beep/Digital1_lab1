@@ -92,24 +92,34 @@ _**Imágen 1.** Esquemático del citcuito utilizado en la simulación_
 
 ![no image](vout_vin_ttl.png)
 
-_ **Imágen 2.** Señal de entrada y de salida del circuito TTL 74LS04_
+_**Imágen 2.** Señal de entrada y de salida del circuito TTL 74LS04_
 
 
 ![no image](TiempoBajadaTTL.png)
 
-_ **Imágen 3.** Tiempo de bajada del TTL 74LS04 _
+_**Imágen 3.** Tiempo de bajada del TTL 74LS04_
 
 
 ![no image](TiempoSubidaTTL.png)
 
-_ **Imágen 4.** Tiempo de subida del TTL 74LS04 _
+_**Imágen 4.** Tiempo de subida del TTL 74LS04_
 
 
 ### CMOS CD4069
 
-![no image](Vout_Vin_CMOS.png.png)
+![no image](Vout_Vin_CMOS.png)
 
-_ **Imágen 5.** Señal de entrada y de salida del circuito CMOS CD4069 _
+_**Imágen 5.** Señal de entrada y de salida del circuito CMOS CD4069_
+
+
+![no image](TiempoBajadaCMOS.png)
+
+_**Imágen 6.** Tiempo de bajada del CMOS CD4069_
+
+![no image](TiempoSubidaCMOS.png)
+
+_**Imágen 7.** Tiempo de subida del CMOS CD4069_
+
 
 ## RESULTADOS EXPERIMENTALES
 En primer lugar, se realizó la comparación entre cada uno de los circuitos integrados, las tablas **tabla 1** y **tabla 2** se muestran a continuación [1] y [2]:
