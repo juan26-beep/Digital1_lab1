@@ -96,7 +96,7 @@ El CD4069 tiene un consumo de energía mucho más bajo en comparación con el 74
 2.
 3.
 ## Referencias
-[1]. PDF Datasheet integrated circuit TTL 74LS04
-[2]. PDF Datasheet integrated circuit CMOS CD4069
-[3]. J.Ramirez, "Comparación de tecnología CMOS y TTL," GitHub, https://github.com/digital-electronics-UNAL/2024-2/tree/main/labs/lab01#comparaci%C3%B3n-de-tecnolog%C3%ADa-cmos-y-ttl (2024).
-[4]. T. L. Floyd, "Fundamentos de Sistemas Digitales," 9th ed., Pearson Educación, 2006.
+    -[1]. PDF Datasheet integrated circuit TTL 74LS04
+    -[2]. PDF Datasheet integrated circuit CMOS CD4069
+    -[3]. J.Ramirez, "Comparación de tecnología CMOS y TTL," GitHub, https://github.com/digital-electronics-UNAL/2024-2/tree/main/labs/lab01#comparaci%C3%B3n-de-tecnolog%C3%ADa-cmos-y-ttl (2024).
+    -[4]. T. L. Floyd, "Fundamentos de Sistemas Digitales," 9th ed., Pearson Educación, 2006.
