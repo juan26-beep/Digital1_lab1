@@ -94,10 +94,10 @@ Donde $K_p$ y $K_n$ corresponden  a parametros internos de los transistores PMOS
 ## RESULTADOS DE SIMULACIÓN 
 Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la siguiente imagen:
 
-<<<<<<< HEAD
 ![no image](Esquematico.png) 
 
 _**Imágen 1.** Esquemático del citcuito utilizado en la simulación_
+
 
 ### TTL 74LS04
 
@@ -105,10 +105,7 @@ _**Imágen 1.** Esquemático del citcuito utilizado en la simulación_
 ![no image](vout_vin_ttl.png)
 
 _**Imágen 2.** Señal de entrada y de salida del circuito TTL 74LS04_
-=======
-![no image](Esquematico.png)
-**Imágen 1.** Esquemático del citcuito utilizado en la simulación con el C.Integrado CMOS CD4069. 
->>>>>>> 285bb2f839ee6727d8f4b525e5e645aaee030c90
+
 
 Por medio del análisis del voltaje  salida se obtuvieron los tiempos de subida y bajada: 
 
