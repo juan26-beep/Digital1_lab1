@@ -100,10 +100,12 @@ _**Imágen 1.** Esquemático del citcuito utilizado en la simulación_
 
 ### TTL 74LS04
 
+
 ![no image](vout_vin_ttl.png)
 
 _**Imágen 2.** Señal de entrada y de salida del circuito TTL 74LS04_
 
+Por medio del análisis del voltaje  salida se obtuvieron los tiempos de subida y bajada: 
 
 ![no image](TiempoBajadaTTL.png)
 
@@ -114,8 +116,9 @@ _**Imágen 3.** Tiempo de bajada del TTL 74LS04_
 
 _**Imágen 4.** Tiempo de subida del TTL 74LS04_
 
-
+Según la imágen **3** se identificó un tiempo de bajada de 9.88 × 10⁻⁹ segundos (9.88 nanosegundos); mientras que el tiempo de subida encontrado en la imagen **4** es de 24.2 × 10⁻⁹ segundos (24.2 nanosegundos).
 ### CMOS CD4069
+Por su parte, para el negador CD4069 mostró los siguientes comportamientos:
 
 ![no image](Vout_Vin_CMOS.png)
 
@@ -129,6 +132,8 @@ _**Imágen 6.** Tiempo de bajada del CMOS CD4069_
 ![no image](TiempoSubidaCMOS.png)
 
 _**Imágen 7.** Tiempo de subida del CMOS CD4069_
+
+Según la imágen **6** se identificó un tiempo de bajada de 118.52 × 10⁻⁹ segundos (118.52 nanosegundos); mientras que el tiempo de subida encontrado en la imagen **7** es de 133.74 × 10⁻⁹ segundos (133.74 nanosegundos). Todos estos valores son considerablemente grandes comparandolo con el TTL 74LS04
 
 
 ## RESULTADOS EXPERIMENTALES
