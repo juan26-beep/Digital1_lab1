@@ -3,10 +3,10 @@
 Electrónica Digital, Grupo 1 - Equipo 4.
 Universidad Nacional de Colombia
 
-Estudiantes: 
--Juan Felipe Rátiva Sánchez, jrativas@unal.edu.co
--Santiago Gomez Camargo, sgomezcam@unal.edu.co
--Cristian Mauricio Gil Pineda crgilp@unal.edu.co
+### Estudiantes: 
+    -Juan Felipe Rátiva Sánchez, jrativas@unal.edu.co
+    -Santiago Gomez Camargo, sgomezcam@unal.edu.co
+    -Cristian Mauricio Gil Pineda crgilp@unal.edu.co
 
 # Objetivos
 Plasme aquí los objetivos
