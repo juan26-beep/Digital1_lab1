@@ -18,16 +18,16 @@ Plasme aquí los objetivos
     4.Modelos spice
     5.Datasheets
 
-INTRODUCCIÓN
-Aquí va la introducción del informe
+# INTRODUCCIÓN
+Para esta primer práctica se realizó la búsqueda de información sobre dos tecnologías en electrónica digital: la tecnología CMOS y la TTL. Para este caso, se trabajaron con los circuitos integrados CMOS CD4069 y TTL 74LS04, cuya estructura interna está compuesta de compuertas negadoras. Para cada una de las tecnologías se revisaron las hojas de datos correspondientes para extraer datos de importancia para esta práctica. Parámetros de tensión como Vih, Vil, Voh y Vol y de tiempo tales como el tiempo de subida "tr", el tiempo de bajada "tf", y el tiempo de retardo "tplh" y "tphl" con el fin de compararlos con los resultados de medición en el laboratorio y exponer conclusiones de acuerdo conla funcionalidad y propiedades de cada tecología.
 
-RESULTADOS DE SIMULACIÓN 
-SIMULACIONES
-Adjuntar simlaciones pertinentes
+# RESULTADOS DE SIMULACIÓN 
+## **SIMULACIONES:**
 
-RESULTADOS EXPERIMENTALES
+
+# RESULTADOS EXPERIMENTALES
 Adjuntar simlaciones pertinentes experimentales
 
-ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
+# ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
 
-CONCLUSIONES
+# CONCLUSIONES
