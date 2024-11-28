@@ -62,7 +62,9 @@ El fan-out se define como la cantidad máxima de entradas de otras compuertas qu
 ### Fan-out en TTL
 Para el caso de los dispositivos TTL, se calcula usando las corrientes:
 
-   $Fan-out=\frac{I_{ol}}{I_{il}}$
+   $Fan-out=\frac{I_{OL}}{I_{IL}}$ y $Fan-out=\frac{I_{OH}}{I_{IH}}$
+
+Donde $I_{IL}$ e $I_{IH}$ son las corrientes de entrada, mientras que $I_{OL}$ e $I_{OH}$ son las corrientes de salida.
 
 ## RESULTADOS DE SIMULACIÓN 
     Adjuntar simlaciones pertinentes
