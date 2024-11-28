@@ -169,7 +169,7 @@ Posteriormente, se realizó el montaje físico, implementando una señal cuadrad
 ## ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
 
 ## CONCLUSIONES
-1.
+1. Si el diseño requiere tiempos de conmutación rápidos y bajas latencias, por ejemplo, generación de pulsos, circuitos de reloj o temporizadores es recomendable usar dispositivos TTL. Por otro lado si el diseño requiere  un bajo consumo de energía es mejor el uso de dispositivos CMOS. Algunas aplicaciones pueden ser para dispositivos alimentados por batería, como teléfonos móviles, relojes inteligentes, o sensores IoT, ya que su consumo energetico es casi nulo en estado estático.
 2.
 3.
 ## Referencias
