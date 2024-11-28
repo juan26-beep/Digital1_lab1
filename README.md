@@ -107,7 +107,7 @@ _**Imágen 1.** Esquemático del citcuito utilizado en la simulación_
 _**Imágen 2.** Señal de entrada y de salida del circuito TTL 74LS04_
 
 
-Por medio del análisis del voltaje  salida se obtuvieron los tiempos de subida y bajada: 
+Por medio del análisis del voltaje de salida se obtuvieron los tiempos de subida y bajada: 
 
 ![no image](TiempoBajadaTTL.png)
 
@@ -119,24 +119,38 @@ _**Imágen 3.** Tiempo de bajada del TTL 74LS04_
 _**Imágen 4.** Tiempo de subida del TTL 74LS04_
 
 Según la imágen **3** se identificó un tiempo de bajada de 9.88 × 10⁻⁹ segundos (9.88 nanosegundos); mientras que el tiempo de subida encontrado en la imagen **4** es de 24.2 × 10⁻⁹ segundos (24.2 nanosegundos).
+
+Luego, se procedió a sacar la función de transferencia mediante la gráfica de $$\mathit{V_{in}}$$ vs $$\mathit{V_{out}}$$, obteniendo lo siguiente: 
+
+![no image](FuncionTransferenciaTTL.png)
+
+_**Imágen 4.** Función de transferencia del TTL 74LS04_
+
+
 ### CMOS CD4069
+
 Por su parte, para el negador CD4069 mostró los siguientes comportamientos:
 
 ![no image](Vout_Vin_CMOS.png)
 
-_**Imágen 5.** Señal de entrada y de salida del circuito CMOS CD4069_
+_**Imágen 6.** Señal de entrada y de salida del circuito CMOS CD4069_
 
 
 ![no image](TiempoBajadaCMOS.png)
 
-_**Imágen 6.** Tiempo de bajada del CMOS CD4069_
+_**Imágen 7.** Tiempo de bajada del CMOS CD4069_
 
 ![no image](TiempoSubidaCMOS.png)
 
-_**Imágen 7.** Tiempo de subida del CMOS CD4069_
+_**Imágen 8.** Tiempo de subida del CMOS CD4069_
 
-Según la imágen **6** se identificó un tiempo de bajada de 118.52 × 10⁻⁹ segundos (118.52 nanosegundos); mientras que el tiempo de subida encontrado en la imagen **7** es de 133.74 × 10⁻⁹ segundos (133.74 nanosegundos). Todos estos valores son considerablemente grandes comparandolo con el TTL 74LS04
+Según la imágen **7** se identificó un tiempo de bajada de 118.52 × 10⁻⁹ segundos (118.52 nanosegundos); mientras que el tiempo de subida encontrado en la imagen **8** es de 133.74 × 10⁻⁹ segundos (133.74 nanosegundos). Todos estos valores son considerablemente grandes comparandolo con el TTL 74LS04.
 
+La función de transferencia resultante sería: 
+
+![no image](FuncionTransferenciaCMOS.png)
+
+_**Imágen 9.** Función de transferencia del CMOS CD4069_
 
 ## RESULTADOS EXPERIMENTALES
 En primer lugar, se realizó la comparación entre cada uno de los circuitos integrados, las tablas **tabla 1** y **tabla 2** se muestran a continuación [1] y [2]:
@@ -171,7 +185,8 @@ Posteriormente, se realizó el montaje físico, implementando una señal cuadrad
 ## CONCLUSIONES
 1.
 2.
-3.
+3. 
+4.LAs simulaciones mostraron la rápidez que tienen los integrados TTL 74LS04 en el tiempo de subida y bajada respecto a los integrados CMOS CD4069.
 ## Referencias
     -[1]. PDF Datasheet integrated circuit TTL 74LS04
     -[2]. PDF Datasheet integrated circuit CMOS CD4069
