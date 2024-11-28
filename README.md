@@ -89,7 +89,8 @@ En primer lugar, se realizó la comparación entre cada uno de los circuitos int
 **Tabla 1.** Tabla de datos técnicos del circuito integrado TTL 74LS04, tensiones.
 
 ### CMOS CD4069
-![no image](I2.png)
+![no image](I2.png)}
+
 **Tabla 2.** Tabla de datos técnicos del circuito integrado TTL 74LS04, tensiones.
 
 De acuerdo a la información de las tablas **1 y 2**, se puede hacer una primer observación sobre el desempeño de cada familia:
