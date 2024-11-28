@@ -189,17 +189,13 @@ Acto seguido y como última parte de la práctica, se realiza el montaje de la e
 **Imágen 6.** Medición experimental de conexión en anillo para 2vpp.
 
 ## CONCLUSIONES
-<<<<<<< HEAD
-1.
-2.
-3. 
-4.LAs simulaciones mostraron la rápidez que tienen los integrados TTL 74LS04 en el tiempo de subida y bajada respecto a los integrados CMOS CD4069.
-=======
+
 1. Si el diseño requiere tiempos de conmutación rápidos y bajas latencias, por ejemplo, generación de pulsos, circuitos de reloj o temporizadores es recomendable usar dispositivos TTL. Por otro lado si el diseño requiere  un bajo consumo de energía es mejor el uso de dispositivos CMOS. Algunas aplicaciones pueden ser para dispositivos alimentados por batería, como teléfonos móviles, relojes inteligentes, o sensores IoT, ya que su consumo energetico es casi nulo en estado estático.
 2. En los montajes se observaron distorsiones en las ondas, estos fueron producidos por ruido, esto puede solucionarse al separar los neutros de la fuente DC y del generador.
 3. Los tiempos de subida y de bajada no necesarimente son los mismos, estos pueden variar entre si, dependiendo del modelo y de la carga que se tenga.
 4. La tecnología TTL es mas estable con respecto al cambio de frecuencia si se compara con la tecnologia CMOS, esto se debe a que la configuración interna del CMOS tiene una dependencia de capacitancias, lo que hace que se vea mas afectado por los cambios de frecuencia.
->>>>>>> d5b81ef61809458256f8ad53626035a562f21f36
+5. LAs simulaciones mostraron la rápidez que tienen los integrados TTL 74LS04 en el tiempo de subida y bajada respecto a los integrados CMOS CD4069.
+
 ## Referencias
     -[1]. PDF Datasheet integrated circuit TTL 74LS04
     -[2]. PDF Datasheet integrated circuit CMOS CD4069
