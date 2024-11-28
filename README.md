@@ -72,7 +72,14 @@ Para el caso de los dispositivos CMOS, se calcula usando las capacitancias de en
    $Fan-out=\frac{C_{salida}}{C_{entrada}}$
 
 ## RESULTADOS DE SIMULACIÓN 
-    Adjuntar simlaciones pertinentes
+Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la diguiente imagen:
+
+![no image](Esquematico.png)
+**Imágen 1.** Esquemático del citcuito utilizado en la simulación
+
+
+
+
 
 ## RESULTADOS EXPERIMENTALES
 En primer lugar, se realizó la comparación entre cada uno de los circuitos integrados, las tablas **tabla 1** y **tabla 2** se muestran a continuación [1] y [2]:
@@ -82,7 +89,8 @@ En primer lugar, se realizó la comparación entre cada uno de los circuitos int
 **Tabla 1.** Tabla de datos técnicos del circuito integrado TTL 74LS04, tensiones.
 
 ### CMOS CD4069
-![no image](I2.png)
+![no image](I2.png)}
+
 **Tabla 2.** Tabla de datos técnicos del circuito integrado TTL 74LS04, tensiones.
 
 De acuerdo a la información de las tablas **1 y 2**, se puede hacer una primer observación sobre el desempeño de cada familia:
