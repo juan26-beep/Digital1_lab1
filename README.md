@@ -156,9 +156,17 @@ _**Imágen 9.** Función de transferencia del CMOS CD4069_
 
 Por medio del siguiente esquemático se analizó el oscilador en anillo CMOS cambiando el voltaje de entrada, teniendo los siguientes resultados: 
 
-![no image](ANILLO.png
+![no image](ANILLO.png)
 
-_**Imágen 9.** esquemático anillo CMOS CD4069_
+_**Imágen 10.** esquemático anillo CMOS CD4069_
+
+![no image](5V.png)
+
+_**Imágen 11.** Voltaje de salida obtenido con un voltaje de 5V_
+
+![no image](10v.png)
+
+_**Imágen 12.** Voltaje de salida obtenido con un voltaje de 10V_
 
 ## RESULTADOS EXPERIMENTALES
 En primer lugar, se realizó la comparación entre cada uno de los circuitos integrados, las tablas **tabla 1** y **tabla 2** se muestran a continuación [1] y [2]:
