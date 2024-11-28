@@ -94,9 +94,20 @@ Donde $K_p$ y $K_n$ corresponden  a parametros internos de los transistores PMOS
 ## RESULTADOS DE SIMULACIÓN 
 Para tomar los datos de las simulaciones se empleó el siguiente esquemático compuesto de una fuente dc de 5V y un generador de onda cuadrada, conectado a su respectivo Negador (TTL o CMOS), tal y como se presenta en la siguiente imagen:
 
-![no image](Esquematico.png)
-**Imágen 1.** Esquemático del citcuito utilizado en la simulación con el C.Integrado CMOS CD4069. 
+![no image](Esquematico.png) 
 
+_**Imágen 1.** Esquemático del citcuito utilizado en la simulación_
+
+
+### TTL 74LS04
+
+
+![no image](vout_vin_ttl.png)
+
+_**Imágen 2.** Señal de entrada y de salida del circuito TTL 74LS04_
+
+
+Por medio del análisis del voltaje  salida se obtuvieron los tiempos de subida y bajada: 
 
 ![no image](TiempoBajadaTTL.png)
 
@@ -107,8 +118,9 @@ _**Imágen 3.** Tiempo de bajada del TTL 74LS04_
 
 _**Imágen 4.** Tiempo de subida del TTL 74LS04_
 
-
+Según la imágen **3** se identificó un tiempo de bajada de 9.88 × 10⁻⁹ segundos (9.88 nanosegundos); mientras que el tiempo de subida encontrado en la imagen **4** es de 24.2 × 10⁻⁹ segundos (24.2 nanosegundos).
 ### CMOS CD4069
+Por su parte, para el negador CD4069 mostró los siguientes comportamientos:
 
 ![no image](Vout_Vin_CMOS.png)
 
@@ -122,6 +134,8 @@ _**Imágen 6.** Tiempo de bajada del CMOS CD4069_
 ![no image](TiempoSubidaCMOS.png)
 
 _**Imágen 7.** Tiempo de subida del CMOS CD4069_
+
+Según la imágen **6** se identificó un tiempo de bajada de 118.52 × 10⁻⁹ segundos (118.52 nanosegundos); mientras que el tiempo de subida encontrado en la imagen **7** es de 133.74 × 10⁻⁹ segundos (133.74 nanosegundos). Todos estos valores son considerablemente grandes comparandolo con el TTL 74LS04
 
 
 ## RESULTADOS EXPERIMENTALES
@@ -171,11 +185,12 @@ Acto seguido y como última parte de la práctica, se realiza el montaje de la e
 ## ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
 
 ## CONCLUSIONES
-1.
-2.
+1. Si el diseño requiere tiempos de conmutación rápidos y bajas latencias, por ejemplo, generación de pulsos, circuitos de reloj o temporizadores es recomendable usar dispositivos TTL. Por otro lado si el diseño requiere  un bajo consumo de energía es mejor el uso de dispositivos CMOS. Algunas aplicaciones pueden ser para dispositivos alimentados por batería, como teléfonos móviles, relojes inteligentes, o sensores IoT, ya que su consumo energetico es casi nulo en estado estático.
+2. En los montajes se observaron distorsiones en las ondas, estos fueron producidos por ruido, esto puede solucionarse al separar los neutros de la fuente DC y del generador.
 3.
 ## Referencias
     -[1]. PDF Datasheet integrated circuit TTL 74LS04
     -[2]. PDF Datasheet integrated circuit CMOS CD4069
     -[3]. J.Ramirez, "Comparación de tecnología CMOS y TTL," GitHub, https://github.com/digital-electronics-UNAL/2024-2/tree/main/labs/lab01#comparaci%C3%B3n-de-tecnolog%C3%ADa-cmos-y-ttl (2024).
     -[4]. T. L. Floyd, "Fundamentos de Sistemas Digitales," 9th ed., Pearson Educación, 2006.
+    -[5]. S.Noriega, "Familia Lógica CMOS, "http://www.ifdcvm.edu.ar/tecnicatura/Desarrollo_de_Contenidos/5.pdf
