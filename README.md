@@ -19,7 +19,7 @@ Plasme aquí los objetivos
     5.Datasheets
 
 # INTRODUCCIÓN
-    Aquí va la introducción del informe
+    Para esta primer práctica se realizó la búsqueda de información sobre dos tecnologías en electrónica digital: la tecnología CMOS y la TTL. Para este caso, se trabajaron con los circuitos integrados CMOS CD4069 y TTL 74LS04, cuya estructura interna está compuesta de compuertas negadoras. Para cada una de las tecnologías se revisaron las hojas de datos correspondientes para extraer datos de importancia para esta práctica. Parámetros de tensión como Vih, Vil, Voh y Vol y de tiempo tales como el tiempo de subida "tr", el tiempo de bajada "tf", y el tiempo de retardo "tplh" y "tphl" con el fin de compararlos con los resultados de medición en el laboratorio y exponer conclusiones de acuerdo conla funcionalidad y propiedades de cada tecología.
 
 # MARCO TEÓRICO
     Las compuertas lógicos son circuitos electrónucos que estan internamente conformados por transistores que se encuentran en arreglos especificos segun el tipo de compuerta y la familia a la que pertenezca. Su objetivo principal es breindar una señal de salida en respuesta a operaciones booleanas. En esta ocasión se observara el funcionamiento de las fmilias TTL y CMOS. Las tecnologías TTL (Transistor-Transistor Logic) y CMOS (Complementary Metal-Oxide-Semiconductor) son dos de las más comunes para construir estas compuertas. Cada una tiene aplicaciones distintas, esto debido a sus características, ventajas y limitaciones.
