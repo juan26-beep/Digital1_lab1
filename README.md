@@ -22,7 +22,7 @@ Plasme aquí los objetivos
 Para esta primer práctica se realizó la búsqueda de información sobre dos tecnologías en electrónica digital: la tecnología CMOS y la TTL. Para este caso, se trabajaron con los circuitos integrados CMOS CD4069 y TTL 74LS04, cuya estructura interna está compuesta de compuertas negadoras. Para cada una de las tecnologías se revisaron las hojas de datos correspondientes para extraer datos de importancia para esta práctica. Parámetros de tensión como Vih, Vil, Voh y Vol y de tiempo tales como el tiempo de subida "tr", el tiempo de bajada "tf", y el tiempo de retardo "tplh" y "tphl" con el fin de compararlos con los resultados de medición en el laboratorio y exponer conclusiones de acuerdo conla funcionalidad y propiedades de cada tecología.[1],[2] y [3].
 
 # MARCO TEÓRICO
-Las compuertas lógicos son circuitos electrónucos que estan internamente conformados por transistores que se encuentran en arreglos especificos segun el tipo de compuerta y la familia a la que pertenezca. Su objetivo principal es breindar una señal de salida en respuesta a operaciones booleanas. En esta ocasión se observara el funcionamiento de las fmilias TTL y CMOS. Las tecnologías TTL (Transistor-Transistor Logic) y CMOS (Complementary Metal-Oxide-Semiconductor) son dos de las más comunes para construir estas compuertas. Cada una tiene aplicaciones distintas, esto debido a sus características, ventajas y limitaciones.
+Las compuertas lógicos son circuitos electrónicos que estan internamente conformados por transistores que se encuentran en arreglos especificos segun el tipo de compuerta y la familia a la que pertenezca. Su objetivo principal es breindar una señal de salida en respuesta a operaciones booleanas. En esta ocasión se observara el funcionamiento de las fmilias TTL y CMOS. Las tecnologías TTL (Transistor-Transistor Logic) y CMOS (Complementary Metal-Oxide-Semiconductor) son dos de las más comunes para construir estas compuertas. Cada una tiene aplicaciones distintas, esto debido a sus características, ventajas y limitaciones.
 
  ## Compuertas TTL
 Las compuertas TTL están basadas en transistores bipolares, que forman circuitos lógicos como AND, OR, NOT, entre otros. Estas fueron las primeras tecnologías digitales de alta velocidad ampliamente adoptadas.
@@ -87,7 +87,9 @@ En primer lugar, se realizó la comparación entre cada uno de los circuitos int
 
 De acuerdo a la información de las tablas **1 y 2**, se puede hacer una primer observación sobre el desempeño de cada familia:
 
-El CD4069 tiene un consumo de energía mucho más bajo en comparación con el 74LS04. El CD4069 tiene una velocidad de operación más alta, con tiempos de subida y caída en escala de ns,mientras que el 74LS04 tiene una velocidad de operación más baja. El CD4069 tiene una mayor inmunidad al ruido debido a su tecnología CMOS, según lo visto también en la teoría [1] [2] y [4]..
+El CD4069 tiene un consumo de energía mucho más bajo en comparación con el 74LS04. El CD4069 tiene una velocidad de operación más alta, con tiempos de subida y caída en escala de ns,mientras que el 74LS04 tiene una velocidad de operación más baja. El CD4069 tiene una mayor inmunidad al ruido debido a su tecnología CMOS, según lo visto también en la teoría [1] [2] y [4].
+
+Posteriormente, se realizó el montaje físico, implementando una señal cuadrada de 1kHz de frecuencia y 5 $$\text{Vpp} \mathit{Vpp}$$
 
 ## ANÁLISIS Y COMPARACIÓN DE RESULTADOS 
 
